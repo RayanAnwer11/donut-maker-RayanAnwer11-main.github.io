@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" onload="check()">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayan Donuts Maker</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class='container'>
+        <nav>
+            <ul class='headerNav'>
+                <div class="dropdown">
+                    <span>Fred the Baker Baking Company</span>
+                <div class="dropdown-content">
+                    <p>This is our great Bakery</p>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <span>Rayan Anwer</span>
+                <div class="dropdown-content">
+                    <p onclick="window.open('https://github.com/RayanAnwer11')">Developer Contact <img src=".\assets\git.jpg" alt=""></p>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <span>Inspiration</span>
+                <div class="dropdown-content">
+                    <p onclick="window.open('https://orteil.dashnet.org/cookieclicker/')">The inspiration of this game is Cookie-Clicker<img src=".\assets\clicker.jpg" alt=""></p>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+        <div class="donutsKey">
+            <button class="makeDonut">Make a donut</button>
+            <button class="buyClick">Buy Clicker</button>
+        </div>
+        <div class="display">
+            <div class="donutTitle">Donut Count:</div>
+            <div class="donutCount" id="donutCount">0</div>
+            <div class="autoTitle">Auto Clicker</div>
+            <div class="autoClickerCount" id="autoClickerCount">0</div>
+            <div class="autoCostTitle">Auto Clicker Cost: </div>
+            <div class="autoCost">100</div>
+        </div>
+        <div class="resetBtn">
+            <button class="reset">Reset</button>
+        </div>
+    </div>
+<script src="DonutMaker.js"></script>
+</body>
+</html>
